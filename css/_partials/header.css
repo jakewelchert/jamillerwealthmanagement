@@ -1,0 +1,14 @@
+header {
+	border-bottom: 1px solid #aaa;
+	background: #fff;
+}
+
+.logo {
+	position: fixed;
+	z-index: 5;
+	top: 200px;
+	left: -200px;
+	width: 350px;
+	height: 350px;
+	background-image: url(../../img/logo.png);
+}

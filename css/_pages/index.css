@@ -1,0 +1,14 @@
+.container-index {
+	padding: 125px 20%;
+	text-align: center;
+}
+
+.container-index .rule {
+	max-width: 100px;
+	border-bottom: 2px solid #aaa;
+	margin: 30px auto 20px;
+}
+
+.welcome-index {
+	border-bottom: 1px solid #ddd;s
+}
