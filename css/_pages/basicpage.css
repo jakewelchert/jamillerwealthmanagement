@@ -1,0 +1,23 @@
+.basic-title {
+	padding: 100px 0;
+}
+
+@media (max-width: 799px) {
+.basic-body {
+  padding: 0 30px;
+}
+}
+
+@media (min-width: 800px) {
+.basic-body {
+	padding-bottom: 150px;
+}
+}
+
+.basic-body h2, .basic-body h4 {
+	padding-bottom: 40px;
+}
+
+.basic-body img {
+	margin: 75px 0;
+}

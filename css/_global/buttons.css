@@ -7,7 +7,7 @@ input[type="reset"],
 input[type="button"] {
   display: inline-block;
   padding: 6px 80px 3px;
-  color: #c83232;
+  color: #fff;
   text-align: center;
   font-size: 13px;
   font-weight: 600;
@@ -17,11 +17,11 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border: 2px solid #ddd;
+  border: 2px solid #36657d;
   cursor: pointer;
   box-sizing: border-box;
   transition: all 225ms ease;
-  background-color: #ddd;
+  background-color: #36657d;
  }
 .button:hover,
 button:hover,
@@ -34,8 +34,8 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #fff;
-  border-color: #c83232;
-  background-color: #c83232;
+  border-color: #1c4b60;
+  background-color: #1c4b60;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -68,4 +68,8 @@ button.tan {
 button.tan:hover {
   background-color: #ede8da;
   color: #CF0A2C;
+}
+
+button.layout {
+  margin-top: 50px
 }

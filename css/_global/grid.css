@@ -40,6 +40,7 @@
   margin: 0;
 }
 
+
 /* For devices larger than 800px */
 @media (min-width: 800px) {
   .container, .container-fullwidth, .container-header {

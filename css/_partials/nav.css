@@ -1,6 +1,6 @@
 .header-logo, .header-logo-mobile {
 position: absolute;
-top: 20px;
+top: 15px;
 left: 0px;
 width: 185px;
 height: 120px;
@@ -14,15 +14,8 @@ left: 5%;
 }
 
   @media screen and (min-width: 700px) {
-  .header-logo, .header-logo-mobile {
-  top: 30px;
-  left: 0px;
-  width: 185px;
-  height: 120px;
-  }
-
   .header-logo-mobile {
-  left: 7.5%;
+  /*left: 7.5%;*/
   }
   }
 
@@ -36,7 +29,7 @@ left: 5%;
   @media screen and (min-width: 700px) {
   nav ul {
   position: relative;
-  padding: 50px 0 75px 0;
+  padding-top: 70px;
   text-align: right;
   }
   }
@@ -49,26 +42,26 @@ nav li {
   padding-right: 0px;
   text-align: center;
   line-height: 1.25;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 15px;
   padding-bottom: 12px;
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
   @media screen and (min-width: 700px) {
     nav li {
-    font-size: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    nav li {
+    padding-left: 20px;
     }
   }
 
   @media screen and (min-width: 900px) {
-    .header-logo, .header-logo-mobile {
-    top: 15px;
-    width: 185px;
-    height: 120px;
-    }
-
     nav li {
     padding-left: 25px;
     font-size: 17px;
@@ -77,122 +70,71 @@ nav li {
 
   @media screen and (min-width: 950px) {
     nav li {
-    padding-left: 30px;
+    padding-left: 40px;
     }
   }
 
-  @media screen and (min-width: 1024px) {
-    .header-logo, .header-logo-mobile {
-    top: 15px;
-    width: 185px;
-    height: 120px;
-    }
-
-    nav li {
-    padding-left: 45px;
-    }
-  }
+  @media screen and (min-width: 1024px) {}
 
   @media screen and (min-width: 1200px) {
     nav li {
-    padding-left: 60px;
+    padding-left: 50px;
     }
   }
 
   @media screen and (min-width: 1250px) {
     nav li {
-    padding-left: 80px;
+    padding-left: 60px;
     }
   }
 
-@media screen and (max-width: 699px) {
-  .super-nav {
-  display: none;
+nav ul {
+  padding-right: 50px;
+}
+
+  @media screen and (min-width: 1620px) {
+    nav ul {
+    padding-right: 0px;
+    }
   }
-}
 
-.super-nav {
-  position: absolute;
-  z-index: 5;
-  top: 40px;
-  right: 50px;
-  list-style: none;
-  font-size: 20px;
-  letter-spacing: .5px;
-}
-
-.super-nav {
-  float: right;
-}
-
-.super-nav li {
-  float: left;
-  padding-left: 15px;
-  text-transform: uppercase;
-}
-
-@media screen and (max-width: 1023px) {
-  .squiggly {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .squiggly {
-  position: absolute;
-  width: 9px;
-  padding: 0;
-  margin-top: -22px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .squiggly {
-  width: 11px;
-  margin-top: -28px;
-  }
+nav ul li a {
+  padding-bottom: 7px;
 }
 
 
-
-/* Underline Reveal */
-.hvr-underline-reveal {
+/* Underline From Left */
+.hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   overflow: hidden;
 }
-.hvr-underline-reveal:before {
+.hvr-underline-from-left:before {
   content: "";
   position: absolute;
   z-index: -1;
-  left: 64px;
-  right: 42px;
+  left: 0;
+  right: 100%;
   bottom: 0;
-  background: #9c2525;
-  height: 3px;
-  -webkit-transform: translateY(3px);
-  transform: translateY(3px);
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  background: rgba(100, 100, 100, .3);
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
 }
-
-
-
-
 
 
 
@@ -224,8 +166,8 @@ nav li {
 .btn-open:after {
   position: absolute;
   right: 50px;
-  top: 42px;
-  color:#c83232;
+  top: 47px;
+  color:#36657d;
   content:"\f0c9";
   font-family:"FontAwesome";
   transition-property:all .2s linear 0s;
@@ -234,13 +176,13 @@ nav li {
   -o-transition:all .2s linear 0s;
 }
 .btn-open:hover:after {
-  color:#c83232;
+  color:#1c4b60;
 }
 
 .btn-close:after {
   position: fixed;
   right: 50px;
-  top: 42px;
+  top: 47px;
   z-index: 2000;
   color:#fff;
   content:"\f00d";
@@ -262,7 +204,7 @@ nav li {
   top:0;
   height:100%;
   width:100%;
-  background:#c83232;
+  background:#36657d;
   overflow:auto;
   z-index:99;
 }
