@@ -1,0 +1,11 @@
+ul.employee {
+	list-style: none;
+}
+
+ul.employee li {
+	margin-bottom: 70px;
+}
+
+ul.employee li:last-child {
+	margin-bottom: 0px;
+}
