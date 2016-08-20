@@ -13,3 +13,20 @@ ul.services li:last-child {
 .rule {
 	border-top: 1px solid #ddd;
 }
+
+.servicesrule {
+	border-top: 1px solid #36657d;
+	margin-top: 15px;
+}
+
+.services-index h2 {
+	border-top: 1px solid #fff;
+	color: #fff;
+	padding-top: 5px;
+	margin-top: 60px;
+}
+
+.services-body {
+	border-top: 1px solid #ddd;
+	background-color: #f9f9f9;
+}

@@ -24,8 +24,12 @@
   padding: 50px;
 }
 
-.indv-post {
-  margin-top: 50px;
+.pad-tb {
+  padding: 125px 0;
+}
+
+.container-message {
+  padding: 125px ;
 }
 
 .column,

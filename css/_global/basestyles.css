@@ -49,14 +49,25 @@ img {
     }
   }
 
-.tan {
-  background-color: #fcf7e8;
-}
-
-.red {
-  background-color: #CF0A2C;
-}
-
 .white {
   color: #fff;
+}
+
+.slate {
+  background: #3c464f !important;
+  color: #fff;
+}
+
+.darkslate {
+  background: #3d474f !important;
+  color: #fff !important;
+}
+
+.brightblue {
+  background: #3aa3dc;
+}
+
+.blue {
+  background: #36657d !important;
+  color: #fff !important;
 }
