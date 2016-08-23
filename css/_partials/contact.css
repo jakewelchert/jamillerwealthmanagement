@@ -1,7 +1,11 @@
 .contact {
 	background-color: #666;
-	padding: 50px 30px;
+	padding: 40px 30px;
 	text-align: center;
+}
+
+.contact h4 {
+	margin-bottom: 20px;
 }
 
 .btn-group {
@@ -28,6 +32,6 @@
 		}
 
 		.contact {
-			padding: 150px 50px;
+			padding: 125px 50px 135px;
 		}	
 	}

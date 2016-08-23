@@ -25,7 +25,7 @@
 }
 
 .pad-tb {
-  padding: 125px 0;
+  padding: 50px 30px;
 }
 
 .container-message {
@@ -49,6 +49,10 @@
 @media (min-width: 800px) {
   .container, .container-fullwidth, .container-header {
     max-width: 1600px;
+  }
+
+  .pad-tb {
+    padding: 125px 0;
   }
 
   .column,

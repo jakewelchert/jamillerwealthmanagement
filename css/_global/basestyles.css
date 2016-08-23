@@ -14,7 +14,8 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "sans-serif", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #cbcacb;
+  background-color: #e6e6e6;
+  color: #636466;
   overflow-x: hidden;
 }
 
@@ -58,6 +59,10 @@ img {
   color: #fff;
 }
 
+.slate h2 {
+  color: #fff;
+}
+
 .darkslate {
   background: #3d474f !important;
   color: #fff !important;
@@ -70,4 +75,8 @@ img {
 .blue {
   background: #36657d !important;
   color: #fff !important;
+}
+
+.blue h2 {
+  color: #fff;
 }

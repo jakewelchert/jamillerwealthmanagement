@@ -30,3 +30,11 @@ ul.services li:last-child {
 	border-top: 1px solid #ddd;
 	background-color: #f9f9f9;
 }
+
+.services-body p {
+	font-size: 1.65rem;
+}
+
+.services-body h3 {
+	color: #36657d;
+}
