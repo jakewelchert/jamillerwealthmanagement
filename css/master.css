@@ -6,11 +6,12 @@
 @import url(../css/_global/basestyles.css);
 @import url(../css/_global/typography.css);
 @import url(../css/_global/grid.css);
-@import url(../css/_global/buttons.css);
 @import url(../css/_global/forms.css);
 @import url(../css/_global/tables.css);
 @import url(../css/_global/lists.css);
 @import url(../css/_global/font-awesome.css);
+@import url(../css/_global/buttons.css);
+
 
 
 /*    Partials    */

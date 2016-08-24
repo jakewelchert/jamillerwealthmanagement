@@ -34,8 +34,8 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #fff;
-  border-color: #1c4b60;
-  background-color: #1c4b60;
+  border-color: #2e5468;
+  background-color: #2e5468;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -63,3 +63,31 @@ input[type="button"].button-primary:focus {
   display: block;
   margin: 0 auto;
 }
+
+  @media (max-width: 799px) {
+  .cntr {
+    margin: 40px auto 0;
+  }
+  }
+
+.btn-layout {
+  margin-top: 60px;
+}
+
+.btn-brdr {
+  border-color: #1c4b60;
+}
+
+.share {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.share-dark                      { color: #fff; }
+.share-dark.fa-facebook          { background-color: #1c4b60; }
+.share-dark.fa-facebook:hover    { background-color: #005790; } 

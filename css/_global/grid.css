@@ -35,7 +35,7 @@
 .column,
 .columns,
 .fullfour,
-.fullsix,
+.fullsix,s
 .fulleight {
   position: relative;
   width: 100%;
@@ -70,7 +70,7 @@
   .fullfour                       { width: 33.3333333333%; }
   .four.columns                   { width: 30.6666666667%; }
   .five.columns                   { width: 39.3333333333%; }
-  .six.columns                    { width: 48%;            }
+  .six.columns                    { width: 48% !important;            }
   .fullsix                        { width: 50%;            }
   .seven.columns                  { width: 56.6666666667%; }
   .eight.columns                  { width: 65.3333333333%; }
