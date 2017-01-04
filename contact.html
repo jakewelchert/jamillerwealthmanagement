@@ -81,7 +81,10 @@
     </div>
   </div>
 
+
+
   <div class='container pad-tb'>
+
 
     <div class='row'>
       <div class='six columns offset-by-three'>
@@ -90,9 +93,9 @@
       </div>    
     </div>
 
-    <div class='row'>
+
+<!--     <div class='row'>
       <div class='six columns offset-by-three'>
-      
         <div class='row'>
           <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
             <div class='six columns'>
@@ -111,9 +114,62 @@
         </div>
         <button type='submit' class='cntr'>Submit</button>
       </div>    
-    </div>
-  
+    </div> -->
+ 
+    <section class='six columns offset-by-three'>
+      <div class='col_twothird'>
+        <form class="cd-form floating-labels" action="contact.php" method="post">
+          <label class="cd-label" for="cd-name"><h5>Name*</h5></label>
+          <input class="user" type="text" name="cf_name" id="cd-name" required><br>
+
+          <label class="cd-label" for="cd-email"><h5>Email*</h5></label>
+          <input class="email error" type="email" name="cf_email" id="cd-email" required><br>
+
+          <label class="cd-label" for="cd-textarea"><h5>Message*</h5></label>
+          <textarea class="message" name="cf_message" id="cd-textarea" required></textarea>
+          <br>
+          <br>
+          <input class="btn" type="submit" value="Send">
+          <input class="btn" type="reset" value="Clear">
+
+        </form>
+
+        <script type="text/javascript">
+        jQuery(document).ready(function($){
+        if( $('.floating-labels').length > 0 ) floatLabels();
+
+        function floatLabels() {
+            var inputFields = $('.floating-labels .cd-label').next();
+            inputFields.each(function(){
+                var singleInput = $(this);
+                //check if user is filling one of the form fields 
+                checkVal(singleInput);
+                singleInput.on('change keyup', function(){
+                    checkVal(singleInput);  
+                });
+            });
+        }
+
+        function checkVal(inputField) {
+            ( inputField.val() == '' ) ? inputField.prev('.cd-label').removeClass('float') : inputField.prev('.cd-label').addClass('float');
+        }
+        });
+        </script>
+      </div>
+    </section>
+
+
   </div>
+
+
+
+
+
+
+
+
+
+
 
   <section>
     <div class='container'>
