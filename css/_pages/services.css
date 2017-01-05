@@ -19,7 +19,13 @@ ul.services li:last-child {
 	margin-top: 15px;
 }
 
-.services-index h2 {
+.servicesheaderrule {
+	border-top: 12px solid #16272d;
+	padding-top: 15px;
+	width: 100px;
+}
+
+.services-index h3 {
 	border-top: 1px solid #1c4b60;
 	color: #fff;
 	padding-top: 5px;

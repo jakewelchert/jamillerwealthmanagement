@@ -1,0 +1,17 @@
+/*animation element sliding left*/
+.animate {
+  opacity: 0;
+  -moz-transition: all 600ms linear;
+  -webkit-transition: all 600ms linear;
+  -o-transition: all 600ms linear;
+  -webkit-transform: translate3d(0px, 50px, 0px);
+}
+
+.animate.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
