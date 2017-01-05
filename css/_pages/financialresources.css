@@ -11,7 +11,7 @@ ul.financialresources {
 
 ul.financialresources li {
 	border-bottom: 1px solid #eee;
-	padding: 40px 10px 45px 5px;
+	padding: 45px 10px 37px 5px;
 	margin-bottom: 0;
 	-moz-transition: all 0.4s ease-in,all 0.45s ease-out;
 	-o-transition: all 0.4s ease-in,all 0.45s ease-out;
@@ -21,11 +21,11 @@ ul.financialresources li {
  }
 
 ul.financialresources li:first-child {
-	/*border-top: 1px solid #eee;*/
+	border-top: 1px solid #eee;
 }
 
 ul.financialresources li:hover {
 	background: #eee;
-	padding: 40px 10px 45px 25px;
+	padding: 45px 10px 37px 25px;
 	border-bottom: 1px solid #ddd;
 }

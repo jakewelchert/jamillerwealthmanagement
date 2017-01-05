@@ -4,12 +4,22 @@ header {
 	height: 160px;
 }
 
-.logo {
-	position: fixed;
+
+.brokercheck {
+	position: absolute;
 	z-index: 5;
-	top: 200px;
-	left: -200px;
-	width: 350px;
-	height: 350px;
-	background-image: url(../../img/logo.png);
+	top: 25px;
+	right: 48px;
+	width: 100px;
+	height: 25px;
+	z-index: 10000;
+}
+
+@media screen and (min-width: 700px) {
+.brokercheck {
+	top: 20px;
+	right: 48px;
+	width: 150px;
+	height: 37px;
+}
 }

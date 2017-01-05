@@ -35,3 +35,11 @@
 			padding: 125px 50px 135px;
 		}	
 	}
+
+.contact a {
+	color: #fff;
+}
+
+.contact a:hover {
+	color: #36657d;
+}
